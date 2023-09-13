@@ -1,0 +1,31 @@
+/* 重置默认样式 */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 右侧容器样式 */
+.rightbox {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* 图片预览样式 */
+#output {
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    background-color: #ececec; /* 这里添加您想要的背景颜色 */
+}
