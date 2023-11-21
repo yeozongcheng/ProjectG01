@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+	background: url('cinemabg.jpg'); no-repeat;
+	background-size: vover;
+	font-family: Arial, sans-serif;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+nav {
+  background-color: #444;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Content Styles */
+.content {
+  padding: 15rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.site-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

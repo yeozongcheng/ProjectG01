@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Promotion</title>
+	<style>
+	/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form headings */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style form input fields and text area */
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style form submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style form submit button on hover */
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Add some spacing for form elements */
+br {
+    clear: both;
+}
+
+/* Style error messages (you can add validation and error handling) */
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+	</style>
+</head>
+<h1>Add Promotion Staff</h1>
+    <form action="addpromostaff.php" method="post" enctype="multipart/form-data">
+        <label for="poster">Promotion Poster:</label>
+        <input type="file" id="poster" name="poster"><br>
+        <br>
+        <input type="submit" value="Add Promotion" name="addbutton">
+    </form>
+</body>
+</html>
